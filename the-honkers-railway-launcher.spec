@@ -4,8 +4,9 @@
 %define icon_dir %{_datadir}/icons/hicolor/512x512/apps
 %define apps_dir %{_datadir}/applications
 %define app_id moe.launcher.%{app_name}
+%define build_output honkers-railway-launcher
 
-Name: honkers-launcher
+Name: the-honkers-railway-launcher
 Version: 1.5.4
 Release: 1%{?dist}
 License: GPLv3
@@ -61,7 +62,7 @@ cargo build --release
 %install
 # copy binary
 mkdir -p %{buildroot}%{install_dir}
-cp -f target/release/%{name} %{buildroot}%{install_dir}
+cp -f target/release/%{build_output} %{buildroot}%{install_dir}
 # copy icon
 mkdir -p %{buildroot}%{icon_dir}
 cp -f assets/images/%{app_id}.png %{buildroot}%{icon_dir}
