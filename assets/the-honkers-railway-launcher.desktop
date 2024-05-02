@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=The Honkers Railway Launcher
-Icon=icon
-Exec=AppRun
+Icon=moe.launcher.the-honkers-railway-launcher
+Exec=the-honkers-railway-launcher
 Type=Application
 Categories=Game
 Terminal=false
