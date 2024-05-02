@@ -7,7 +7,7 @@
 %define build_output honkers-railway-launcher
 
 Name: the-honkers-railway-launcher
-Version: 1.5.4-rc2
+Version: 1.5.4.rc2
 Release: 1%{?dist}
 License: GPLv3
 Summary: The Honkers Railway launcher for Linux with automatic patching and telemetry disabling 
