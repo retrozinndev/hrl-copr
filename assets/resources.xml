@@ -6,7 +6,7 @@
   </gresource>
 
   <gresource prefix="/moe/launcher/the-honkers-railway-launcher/icons/hicolor/scalable/apps">
-    <file alias="moe.launcher.the-honkers-railway-launcher.png">images/icon.png</file>
+    <file alias="moe.launcher.the-honkers-railway-launcher.png">images/moe.launcher.the-honkers-railway-launcher.png</file>
   </gresource>
 
   <gresource prefix="/moe/launcher/the-honkers-railway-launcher/icons/scalable/actions">
